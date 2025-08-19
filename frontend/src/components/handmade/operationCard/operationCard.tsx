@@ -80,7 +80,7 @@ export default function OperationsCard() {
           tx = await contract.mul(firstNumber, secondNumber);
           break
         case 'div': 
-          tx = await contract.div(firstNumber, secondNumber);
+          tx = await contract.dev(firstNumber, secondNumber);
           break
       }
 
